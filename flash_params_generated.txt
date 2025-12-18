@@ -1,0 +1,51 @@
+# --- CORE AMR and HOOK PARAMETERS ---
+sim_useRefineSpecialized     = .true.
+sim_useGeometryRefinement    = .true.
+sim_geom_refine_nregions     = 5
+
+# ==========================================================================
+# === REGIONS GENERATED FROM CSV ===
+# ==========================================================================
+
+# --- Region 1 (CSV ID: 1): (Level 5) ---
+sim_geom_refine_shape_1       = "box"
+sim_geom_refine_level_1       = 5
+sim_geom_refine_center_x_1   = 0.01
+sim_geom_refine_center_y_1   = 0
+sim_geom_refine_size_x_1     = 0.01
+sim_geom_refine_size_y_1     = 0.01
+
+# --- Region 2 (CSV ID: 2): (Level 4) ---
+sim_geom_refine_shape_2       = "box"
+sim_geom_refine_level_2       = 4
+sim_geom_refine_center_x_2   = 0.02
+sim_geom_refine_center_y_2   = 0
+sim_geom_refine_size_x_2     = 0.02
+sim_geom_refine_size_y_2     = 0.02
+
+# --- Region 3 (CSV ID: 3): (Level 3) ---
+sim_geom_refine_shape_3       = "box"
+sim_geom_refine_level_3       = 3
+sim_geom_refine_center_x_3   = 0.03
+sim_geom_refine_center_y_3   = 0
+sim_geom_refine_size_x_3     = 0.03
+sim_geom_refine_size_y_3     = 0.03
+
+# --- Region 4 (CSV ID: 3): (Level 2) ---
+sim_geom_refine_shape_4       = "box"
+sim_geom_refine_level_4       = 2
+sim_geom_refine_center_x_4   = 0.075
+sim_geom_refine_center_y_4   = 0
+sim_geom_refine_size_x_4     = 0.075
+sim_geom_refine_size_y_4     = 0.075
+
+# --- Region 5 (CSV ID: 4): (Level 1) ---
+sim_geom_refine_shape_5       = "box"
+sim_geom_refine_level_5       = 1
+sim_geom_refine_center_x_5   = 0.1
+sim_geom_refine_center_y_5   = 0
+sim_geom_refine_size_x_5     = 0.1
+sim_geom_refine_size_y_5     = 0.1
+
+# 确保最大加密等级设置正确
+lrefine_max                  = 5
